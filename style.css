@@ -167,7 +167,7 @@ a:active {
 }
 
 
- @media  screen and (max-width: 320px) {
+ @media  screen and (max-width: 420px) {
    .cart {
      display: none;
    }

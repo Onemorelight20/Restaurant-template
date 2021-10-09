@@ -152,10 +152,29 @@ a:active {
     color: #327430;
 }
 
+.menu-blocks {
+    margin-bottom: 50px;
+}
+
+.block {
+    padding: 0;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+
+.menu-blocks-img {
+    height: 160px;
+    width: 170px;
+    float: right;
+}
+
+
+
+
 @media screen and (max-width: 768px) {
   .container {
-    padding: 0 0;
-    width: 100%;
+    padding: 0 10px;
   }
 
   nav .container {
