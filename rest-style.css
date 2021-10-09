@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    background-color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+  }
+  nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #F2F2F2;
+    box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  .container {
+    margin: 0;
+    padding: 0 10%;
+    width: 100%;
+  }
+  
+  .my-40{
+    margin: 70px 0;
+  }
+  
+  nav .logo {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    font-family: sans-serif;
+    color: black;
+    margin: 20px 16px;
+    text-decoration: none;
+  }
+  
+  .right-side {
+    float: right;
+  }
+  
+  .log-btn {
+    border: 2px solid rgba(11, 15, 19, 0.2);
+    border-radius: 2px;
+    margin: 14px 13px;
+    padding: 4px 10px;
+  }
+  
+  
+  .search {
+    background-color: transparent;
+    margin: 120px 10% 0;
+    padding: 2px 15px;
+    width:80%;
+    border: none;
+    border-bottom: 1px solid rgba(11, 15, 19, 0.2);
+  }
+  
+  .search:hover, .search:focus {
+    outline: none;
+  }
+  
+  .container h2 {
+    font-weight: 500;
+  }
+  
+  .card-image {
+    height: 320px;
+    overflow: hidden;
+  }
+  
+  .test-overflow {
+    overflow: hidden  ;
+  }
+  
+  .cuisine-text {
+    margin: 0 0;
+  }
+  
+  .delivery-time {
+    margin: 5px 0 16px 0;
+  }
+  
+  
+  .c-fixed {
+    position:fixed;
+  }
+  
+  footer {
+    background-color: #262626;
+    color: #FFFFFF;
+    padding: 40px 0;
+  }
+  
+  footer li {
+    list-style-type: none;
+    margin: 10px;
+  }
+  
+  footer .logo {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 18px;
+    color: azure;
+    margin: 20px 16px;
+  }
+  
+  
+  hr {
+    margin: 20px 10%;
+    size: 1px;
+  }
+  
+  .network-logo {
+    max-height: 20px;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  
+  .download {
+    height: 120px;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #262626;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container{
+      padding: 0 auto;
+      width: 100%;
+    }
+  
+    nav .container {
+      padding: 0 0;
+    }
+  
+  
+    .search {
+      margin: 120px 0 0px;
+      width: 100%;
+    }
+  
+    hr {
+      margin: 30px 10px;
+      size: 1px;
+    }
+  }
+  
+  
+   @media  screen and (max-width: 320px) {
+     .cart {
+       display: none;
+     }
+  
+     
+   }
