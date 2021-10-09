@@ -137,9 +137,24 @@ a:active {
   max-width: 340px;
 }
 
+.menu {
+    padding: 40px 0;
+}
+
+.menu a{
+    padding: 0 10px;
+}
+.not-active {
+    color: #626262;
+}
+
+.chosen {
+    color: #327430;
+}
+
 @media screen and (max-width: 768px) {
   .container {
-    padding: 0 auto;
+    padding: 0 0;
     width: 100%;
   }
 
@@ -158,12 +173,16 @@ a:active {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   .cart {
     display: none;
   }
 
   .rest-container {
-    padding: 140px 10px 0;
+    padding: 140px 10px -10px;
+  }
+
+  .not-active {
+      display: none;
   }
 }
