@@ -14,6 +14,8 @@ body {
     margin: 0;
     padding: 0 10%;
     width: 100%;
+    left: 0;
+    top: 0;
   }
   
   .my-40{
@@ -49,33 +51,8 @@ body {
     margin: 14px 13px;
     padding: 4px 10px;
   }
-  
-  
-  .search {
-    background-color: transparent;
-    margin: 120px 10% 0;
-    padding: 2px 15px;
-    width:80%;
-    border: none;
-    border-bottom: 1px solid rgba(11, 15, 19, 0.2);
-  }
-  
-  .search:hover, .search:focus {
-    outline: none;
-  }
-  
-  .container h2 {
-    font-weight: 500;
-  }
-  
-  .card-image {
-    height: 320px;
-    overflow: hidden;
-  }
-  
-  .test-overflow {
-    overflow: hidden  ;
-  }
+
+
   
   .cuisine-text {
     margin: 0 0;
@@ -142,6 +119,18 @@ body {
   
   a:active {
     text-decoration: none;
+  }
+
+
+  .rest-container {
+      padding: 140px 10% 100px;
+      background-image: url("img/Good_Food_Display_-_NCI_Visuals_Online.jpg");
+      background-size: cover;
+  }
+
+  .rest-cart {
+      background-color: #FFFFFF;
+      padding: 10px;
   }
   
   @media screen and (max-width: 768px) {
